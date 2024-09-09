@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Roboto-Bold'; 
+    src: url('/lab2/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Lobster-Regular'; 
+    src: url('/lab2/fonts/Lobster/Lobster-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'DelaGothicOne-Regular-Bold'; 
+    src: url('/lab2/fonts/Dela_Gothic_One/DelaGothicOne-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: 0;
+}
+.main_wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(110, 116, 195);
+    margin: 0 auto;
+    padding: 0;
+}
+.main{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+.nav{
+    
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#desc1{
+    text-align: left;
+}
+#desc2{
+
+    text-align: center;
+
+
+}
+#desc3{
+    text-align: right;
+
+}
+.img{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    object-fit:cover;
+    border-radius: 20px;
+}
+.marker{
+    font-weight: 600;
+}
+.title1{
+    font-family: 'Roboto-Bold';
+
+}
+.title2{
+    font-family: 'Lobster-Regular';
+}
+.title3{
+    font-family: 'DelaGothicOne-Regular-Bold';
+}
+
