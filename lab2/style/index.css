@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'Roboto-Bold'; 
-    src: url('/lab2/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+    src: url('./lab2/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'Lobster-Regular'; 
-    src: url('/lab2/fonts/Lobster/Lobster-Regular.ttf') format('truetype');
+    src: url('./lab2/fonts/Lobster/Lobster-Regular.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'DelaGothicOne-Regular-Bold'; 
-    src: url('/lab2/fonts/Dela_Gothic_One/DelaGothicOne-Regular.ttf') format('truetype');
+    src: url('./lab2/fonts/Dela_Gothic_One/DelaGothicOne-Regular.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
   }
