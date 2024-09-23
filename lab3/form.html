@@ -1,76 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <main class="main" >
-
-        
-            <form action="" class="form">
-                <h2>Оформление заказа</h2>
-                <table>
-                    <tr>
-                        <td><h3>Оплата</h3></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Способ оплаты</td>
-                        <td></td>
-                        <td>
+    <main class="main">
 
 
-                            <fieldset>
-                                
+        <form action="" class="form">
+            <h2>Оформление заказа</h2>
 
-                                    <input class="input" id="card" type="radio" name="payType">
-                                    <label for="card">Банковской картой при получении</label><br />
+            <fieldset>
+
+                <legend><strong>Оплата</strong></legend>
+                <hr />
+
+                <input class="input" id="card" type="radio" name="payType">
+                <label for="card">Банковской картой при получении</label><br />
+                <input class="input" id="cash" type="radio" name="payType">
+                <label for="cash">Наличными при получении</label>
+
+            </fieldset>
+            <fieldset>
+
+                 <legend><strong>Доставка</strong></legend>
+                <hr />
+
+                <input type="text" name="location" id="location" placeholder="Например: Минск, Держинского 120" required>
+                <div>
+                    <div>
+
+                        <label for="podjezd">Подъезд <span class="required" >*</span> </label>
+                        <input id="podjezd" type="text" required>
+
+                    </div>
+
+                    <div>
+                        <label for="level">Этаж <span class="required" >*</span></label>
+                        <input id="level" type="text" required>
+                    </div>
 
 
-                               
+                    <label for="flat">Квартира <span class="required" >*</span></label>
+                    <input id="flat" type="text" required>
+                </div>
 
-                                    <input class="input" id="cash" type="radio" name="payType">
-                                    <label for="cash">Наличными при получении</label>
+                <label for="comment">Комментарии</label>
+                <textarea type="text" name="comment" id="comment" rows="10"></textarea>
 
-                                
-                            </fieldset>
-                        </td>
-                        
-                    </tr>
-                    <tr>
-                        <td><h3>Доставка</h3></td>
-                        <td></td>
-                        <td>
+            </fieldset>
+            <fieldset>
 
-                            <input type="text" name="location" id="location" placeholder="Например: Минск, Держинского 120" >
-                            <div>
-                                <input type="text">
-                                <input type="text">
-                                <input type="text">
-                            </div>
+                <legend><strong>Контактные данные</strong></legend>
+               <hr />
 
-                        </td>
-                     
-                    </tr>
-                    <tr>
-                        <td>Адрес доставки</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        
-                    </tr>
-                
-                </table>
-            </form>
-        
+             
+               <div>
+                   <div>
+
+                       <label for="name">Имя <span class="required" >*</span></label>
+                       <input id="name" type="text" required>
+
+                   </div>
+
+                   <div>
+                       <label for="lastname">Фамилия <span class="required" >*</span></label>
+                       <input id="lastname" type="text" required>
+                   </div>
+                   <div>
+                    <label for="lastname">Номер телефона <span class="required" >*</span></label>
+                    <input id="lastname" type="tel" required>
+                </div>
+
+
+                   <label for="email">Электронная почта</label>
+                   <input id="email" type="email">
+               </div>
+
+              
+             
+           </fieldset>
+
+           <div class="button_wrapper" >
+
+            <input type="submit" value="Отправить">
+
+           </div>
+
+
+
+        </form>
+
+
+
 
     </main>
-    
+
 </body>
+
 </html>
