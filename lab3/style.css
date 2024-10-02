@@ -25,6 +25,7 @@ textarea{
 input[type="text"],
 input[type="email"],
 input[type="tel"],
+input[type="number"],
 textarea {
     width: 100%;
     padding: 10px;
@@ -53,4 +54,16 @@ textarea {
 
 .required{
     color: red;
+}
+.delivery-data{
+    width: 100%;
+    display: block;
+    
+}
+.delivery-data div{
+    max-width:32.16%;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 5px;
+    
 }
